@@ -1,5 +1,73 @@
-/*COLORS:
-Header background - #FFDBAA
-button - #805215
-Header Text - #553100
-Main background - #D4A76A*/
+*{
+  font-family: sans-serif;
+  margin: 0;
+}
+header{
+  width:100%;
+  padding:3%;
+  background-color: #FFDBAA;
+  letter-spacing: 2px;
+  border-bottom: 1px solid black;
+}
+ #menu{
+  display: inline-block;
+  margin-left:15%;
+}
+#menu button{
+  display: inline-block;
+  height:25px;
+  background: #805215;
+  color:white;
+  border-style: none;
+  margin-left:30px;
+  height:50px;
+  width:100px;
+  font-weight: 800;
+  font-size: 18px;
+}
+h1{
+  display: inline-block;
+  color:#553100;
+}
+#main{
+  background: #D4A76A;
+  height:100vh;
+}
+
+.card{
+  display:inline-block;
+  background:white;
+  width:20%;
+  margin-left: 8%;
+  margin-top:30px;
+  height: 150px;
+  vertical-align: top;
+  padding:15px;
+  -webkit-box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
+
+}
+.card h3{
+  text-align: center;
+}
+.card p{
+  margin-top:10px;
+  height:45px;
+}
+.card button{
+  margin-top:4vh;
+  vertical-align: top;
+  width:100%;
+  height:50px;
+  background: #805215;
+  color:white;
+  border-style: none;
+  font-weight: 800;
+  font-size: 18px;
+  border: 1px solid black;
+}
+.large-card{
+  width:90%;
+  margin-left:5%;
+}
